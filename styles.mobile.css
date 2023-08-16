@@ -1,0 +1,40 @@
+/* Estilos para telas pequenas */
+@media screen and (max-width: 768px) {
+    .footer {
+      padding: 5px;
+    }
+    .header{
+        height: 45px;
+        padding: 15px
+    }
+    .header img{
+        max-width: 100%;
+        height: 9px;
+    }
+    .nav a{
+        display: none;
+    }
+    .subhead_content{
+        height: 244px;
+    }
+    .container_subhead {
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .container_subhead h1{
+      font-weight: 700;
+      font-size: 20px;
+    }
+    .container_subhead h3{
+        display: none;
+    }
+    .container_subhead button{
+      text-align: center;
+      width: 188px;
+      height: 45px;
+    }
+    .main-content {
+      padding: 10px;
+    }
+  }
