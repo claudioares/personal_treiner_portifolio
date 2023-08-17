@@ -1,0 +1,38 @@
+/* Estilos para telas médias */
+@media screen and (max-width: 1024px) {
+    .container {
+      min-width: 100vw;
+    }
+    .header img{
+        margin-right: 20px;
+    }
+    .nav {
+      align-items: center;
+      justify-content: space-between;
+
+      gap: 10px;
+    }
+    .section{
+        flex-direction: column;
+
+        overflow-y: scroll;
+    }
+    .content{
+        overflow-y: scroll;
+        flex-direction: column;
+    }
+    .map{
+      background-size: contain;
+    }
+    .right_footer{
+        flex-direction: column;
+        gap: 20px;
+    }
+  }
+  @media screen and (max-width: 906px) {
+
+    .nav {
+      display: none;
+    }
+  
+  }
