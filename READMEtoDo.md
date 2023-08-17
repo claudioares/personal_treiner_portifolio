@@ -3,9 +3,9 @@
 * [X] Header
 * [X] Subheader
 * [X] Section01
-* [ ] Section02
-* [ ] Section03
-* [ ] Section04
-* [ ] Section05
-* [ ] Map to localization
-* [ ] Footer
+* [X] Section02
+* [X] Section03
+* [X] Section04
+* [X] Section05
+* [X] Map to localization
+* [X] Footer

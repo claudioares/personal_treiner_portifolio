@@ -1,6 +1,6 @@
 :root{
-    --green:#132630;
-    --greenlight:#45CDE1;
-    --black:#333333;
-    --white: #FFFFFF;
+    --main:#132630;
+    --btn:#45CDE1;
+    --secondary:#333333;
+    --link: #FFFFFF;
 }

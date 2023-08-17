@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&display=swap" rel="stylesheet">
-  <title>Layout Responsivo</title>
+  <title>Ana Clara</title>
 </head>
 <body>
   <div class="container">
@@ -18,9 +18,9 @@
       <img src="./assets/logo.svg" alt="logo da empresa">
       <nav class="nav">
         <a href="#">Home</a>
-        <a href="#">Sobre mim</a>
-        <a href="#">Serviços</a>
-        <a href="#">Contato</a>
+        <a href="#aboutme">Sobre mim</a>
+        <a href="#services">Serviços</a>
+        <a href="#contacts">Contato</a>
       </nav>
     </header>
     <div class="subhead_content">
@@ -40,8 +40,103 @@
         </h3>
       </div>
     </section>
+
+    <section class="section s_image_solo"></section>
+
+    <section class="section aboutme" id="aboutme">
+      <div class="container_section">
+        <h1>Sobre mim</h1>
+        <p>
+          Oi! Sou a Maria Clara, uma entusiasta do fitness formada como Personal Trainer há um ano. 
+          Minha paixão pela saúde me motiva a guiar outras pessoas rumo a um estilo de vida ativo. 
+          Com programas de treinamento adaptados e foco nas metas individuais, estou aqui para transformar 
+          sua jornada de condicionamento físico em uma conquista duradoura. 
+          Junte-se a mim para dar o primeiro passo em direção a uma vida mais saudável e energética!
+        </p>
+          Maria Clara
+      </div>
+      <img src="./assets/imgsectoin02.svg" alt="moça encostada nos alteres da academia">
+    </section>
+
+    <section class="section services" id="services">
+      <h1>Nossos serviços</h1>
+
+      <div class="content">
+        <div class="container_sevices">
+          <img src="./assets/imgsection03-1.svg" alt="Imagem em close de uma mulher treinando">
+          <div class="inf_service">
+            <h3>Treinamento individualizado</h3>
+            <div class="p">
+              <p>
+                Alcance seus objetivos com um treinamento
+                personalizado, adaptado às suas
+                nescessidades e capacidade.
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container_sevices">
+          <img src="./assets/imgsection03-2.svg" alt="Imagens de pessoas treinando">
+          <div class="inf_service">
+            <h3>Treinamento em grupo</h3>
+            <div class="p">
+              <p>
+                Aumente sua motivação e forme laços
+                através do treinamento em grupo, com
+                exercícios desafiadores e divertidos
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section s_image_solo2"></section>
+
+    <section class="section contacts" id="contacts">
+      <div class="descripition_contacts">
+        <h3>Entre em contato</h3>
+        <p>
+          Entre em contato conosco através do 
+          formulário. 
+          Estou ansiosa para ouvir você e ajuda-lo 
+          com suas nescessidades de treinamento pessoal    
+        </p>
+      </div>
+      <div class="container_form">
+        <form>
+          <div class="section_form">
+            <div class="form">
+              <label for="name">Nome</label>
+              <input type="text" id="name" autofocus>
+            </div>
+            <div class="form">
+              <label for="email">Email</label>
+              <input type="text" id="email">
+            </div>
+          </div>
+
+          <div class="container_textarea">
+            <label for="menssage">Menssagem</label>
+            <textarea id="menssage" autofocus></textarea>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section class="section map"></section>
     <footer class="footer">
-      <p>&copy; 2023 Your Company. All rights reserved.</p>
+      <div class="left_footer">
+        <img src="./assets/logo.svg" alt="logo da empresa">
+        <p>&copy; 2023 Your Company. All rights reserved.</p>
+      </div>
+      <div class="right_footer">
+        <img src="./assets/icons/email.svg" alt="icone de email">
+        <img src="./assets/icons/facebook.svg" alt="icone do facebook">
+        <img src="./assets/icons/instagram.svg" alt="icone do instagram">
+        <img src="./assets/icons/whats.svg" alt="icone do whatsapp">
+      </div>
     </footer>
   </div>
 </body>
