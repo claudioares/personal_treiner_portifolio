@@ -4,16 +4,6 @@
   box-sizing: border-box;
 }
 
-
-#loading-message {
-  display: block;
-  text-align: center;
-  font-size: 20px;
-  margin-top: 50px;
-
-  color: var(--secondary);
-}
-
 /* Estilos para telas grandes */
 
 .container {
