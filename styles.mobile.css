@@ -44,7 +44,7 @@
       font-size: 15px;
     }
     .section{
-      height: 764px;
+      height: 864px;
     }
     .container_section{
       margin: 0;
@@ -58,10 +58,18 @@
       font-size: 20px;
     }
     .aboutme{
-      height: 964px;
+      max-height: 1124px auto;
     }
     .services{
-      height: 1024px;
+      max-height: 1124px auto;
+    }
+    .contacts{
+      align-items: center;
+      justify-content: center;
+    }
+    .descripition_contacts{
+      align-items: center;
+      justify-content: center;
     }
     .container_sevices h1{
       font-size: 20px;

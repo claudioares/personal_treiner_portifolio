@@ -14,8 +14,16 @@
     }
     .section{
         flex-direction: column;
-
         overflow-y: scroll;
+        height: 864px;
+    }
+    .aboutme{
+      justify-content: center;
+      height: 1124px;
+    }
+    .services{
+      justify-content: center;
+      height: 1124px;
     }
     .content{
         overflow-y: scroll;
